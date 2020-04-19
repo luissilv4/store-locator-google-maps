@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+#map {
+    height: 100vh;
+    width: 100%;
+}
+.title {
+    position: absolute;
+    font-size: 88px;
+    color: #333;
+    text-transform: capitalize;
+    z-index: 100;
+    font-weight: bold;
+    top: 100px;
+    right: 100px;
+}
+.sub-title {
+    position: absolute;
+    font-size: 24px;
+    color: #333;
+    text-transform: capitalize;
+    z-index: 100;
+    font-weight: bold;
+    top: 200px;
+    right: 100px;
+}
+
+.search-container {
+    position: absolute;
+    width: 300px;
+    background-color: #454e53;
+    height: 40px;
+    z-index:100;
+    border-radius: 50px;
+    top: 250px;
+    right:100px;
+    display: flex;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.search-container input {
+    flex-grow: 1;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: white;    
+}
+
+.search {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.search i {
+    color: white;
+    font-size: 20px;
+}
+
+.store-list-container {
+    position: absolute;
+    background: white;
+    width: 300px;
+    z-index: 100;
+    height: 350px;
+    top: 320px;
+    right: 100px;
+    border-radius: 30px;
+    bottom: 20px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.store-address {
+    font-size: 15px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.store-address span {
+    display: block;
+}
+
+.store-phone-number {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #777;
+    font-size:12px;
+}
+
+.store-number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-number {
+    height: 20px;
+    width: 20px;
+    display: flex;  
+    background-color: #454e53;
+    color: #b5adad;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.store-container {
+    border-bottom: 1px solid #979797;
+    display: flex;
+    cursor: pointer;
+}
+
+.store-number-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-info-container {
+    flex-grow: 1;
+}
+
+.stores-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+
+
+.store-container-background {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 18px;
+}
+.store-container-background:hover {
+    background-color: #ccc;
+}
