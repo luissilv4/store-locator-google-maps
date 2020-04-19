@@ -1,6 +1,7 @@
 # Google Maps Store Locator
 
-A simple Google Maps Application that allows users to search for store locations. 
+A simple Google Maps Application that allows users to search for store locations.
+
 It uses Google Maps API, HTML, CSS and JavaScript.
 
 
